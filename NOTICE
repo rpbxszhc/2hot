@@ -1,0 +1,9 @@
+This repository contains code for the Jittor ModelNet40 point-cloud
+classification warm-up challenge.
+
+Third-party references:
+- Jittor deep learning framework: https://github.com/Jittor/jittor
+- PCT-style point-cloud transformer architecture: based on the public paper
+  "PCT: Point Cloud Transformer" and common open-source PCT/DGCNN practices.
+- ModelNet40 dataset: provided by the competition as preprocessed point-cloud
+  files. Dataset files are not redistributed in this repository.

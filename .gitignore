@@ -1,0 +1,32 @@
+# Runtime outputs
+outputs/
+*.log
+*.pkl
+*.pt
+*.ckpt
+*.npz
+*.npy
+
+# Challenge data files. Keep data/README.md tracked.
+data/*.zip
+data/*.npy
+data/*.txt
+!data/README.md
+
+# Submission artifacts generated locally
+result*.json
+result*.zip
+submit*.zip
+
+# Python/cache/editor files
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.DS_Store
+
+# Local environment
+.env
+.venv/
+venv/
